@@ -1,0 +1,16 @@
+
+export const STYLE_CATEGORIES = {
+  MODERN: 'Modern',
+  ELEGANT: 'Elegant',
+  FORMAL: 'Formal',
+  ACADEMIC: 'Academic',
+  CREATIVE: 'Creative'
+} as const;
+
+export const CATEGORY_COLORS = {
+  [STYLE_CATEGORIES.MODERN]: '#3B82F6',
+  [STYLE_CATEGORIES.ELEGANT]: '#8B5CF6',
+  [STYLE_CATEGORIES.FORMAL]: '#374151',
+  [STYLE_CATEGORIES.ACADEMIC]: '#059669',
+  [STYLE_CATEGORIES.CREATIVE]: '#EA580C'
+} as const;
